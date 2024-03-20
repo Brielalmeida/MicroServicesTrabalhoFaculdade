@@ -1,0 +1,2 @@
+{"produto": 1, "quantidade": 1}
+{"produto": 2, "quantidade": 3}

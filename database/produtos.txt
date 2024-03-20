@@ -1,0 +1,2 @@
+{"id": 10, "nome": "a", "preco": 10.0}
+{"id": 10, "nome": "azul", "preco": 10.0}
