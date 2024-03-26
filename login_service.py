@@ -23,4 +23,4 @@ def _carregar_login() -> dict :
         with open("./database/login.txt", "r") as file:
             return [json.loads(line) for line in file]
     except FileNotFoundError:
-        return {"message" : "Arquivo não criado"}
+        return {"message" : "Arquivo não criado."}
