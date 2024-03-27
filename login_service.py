@@ -1,7 +1,10 @@
 import json
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+
 
 @app.get("/logins")
 async def listar_login():
